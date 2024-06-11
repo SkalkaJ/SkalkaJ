@@ -16,8 +16,8 @@ Here are some ideas to get you started:
 # KubSka
 Profile repository
 
-### My JS description :
-class Person:
+### My description :
+```class Person:
     def __init__(self, username, job, coding_languages):
         self.username = username
         self.job = job
@@ -30,7 +30,7 @@ class Person:
 
 me = Person("KubSka", "Student", "Python")
 me.details()
-
+```
 Output :
 ```txt
 Hello, my name is KubSka
