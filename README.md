@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# KubSka
+# KubSka 👋
 Profile repository
 
 ### My description :
@@ -32,7 +32,7 @@ class Person:
 me = Person("KubSka", "Student", "Python")
 me.details()
 ```
-Output :
+### Output :
 ```txt
 Hello, my name is KubSka
 I'm a student at the moment
