@@ -27,7 +27,7 @@ class Person:
     def details(self):
         print(f"Hello, my name is {self.username}")
         print(f"I'm a {self.job} at the moment")
-        print(f"I'm actually work in {self.coding_languages}")
+        print(f"I work in {self.coding_languages}")
 
 me = Person("KubSka", "Student", "Python")
 me.details()
@@ -36,5 +36,5 @@ me.details()
 ```txt
 Hello, my name is KubSka
 I'm a student at the moment
-I'm actually work in Python
+I work in Python
 ```
