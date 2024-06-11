@@ -17,7 +17,8 @@ Here are some ideas to get you started:
 Profile repository
 
 ### My description :
-```class Person:
+```
+class Person:
     def __init__(self, username, job, coding_languages):
         self.username = username
         self.job = job
