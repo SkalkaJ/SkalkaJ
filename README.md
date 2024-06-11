@@ -29,7 +29,7 @@ class Person:
         print(f"Hello, my name is {self.username}")
         print(f"I'm a {self.job} at the moment")
         print(f"I work in {self.coding_languages}")
-        print(f"You can contact me at {self.contact}
+        print(f"You can contact me at {self.contact}")
 
 me = Person("KubSka", "Student", "Python", "skalkaj@jirovcovka.net")
 me.details()
