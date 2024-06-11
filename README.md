@@ -17,24 +17,19 @@ Here are some ideas to get you started:
 Profile repository
 
 ### My JS description :
-```js
-class Person {
-    constructor(username, job, codingLanguages) {
-        this.username = username;
-        this.job = job;
-        this.codingLanguages = codingLanguages;
-    }
+class Person:
+    def __init__(self, username, job, coding_languages):
+        self.username = username
+        self.job = job
+        self.coding_languages = coding_languages
 
-    details() {
-        console.log(`Hello, my name is ${this.username}`);
-        console.log(`I'm a ${this.job} at the moment`);
-        console.log(`I'm actually work in ${this.codingLanguages}`);
-    }
-}
+    def details(self):
+        print(f"Hello, my name is {self.username}")
+        print(f"I'm a {self.job} at the moment")
+        print(f"I'm actually work in {self.coding_languages}")
 
-const me = new Person("KubSka", "Student", "Python");
-me.details();
-```
+me = Person("KubSka", "Student", "Python")
+me.details()
 
 Output :
 ```txt
